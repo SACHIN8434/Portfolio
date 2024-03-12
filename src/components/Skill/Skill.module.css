@@ -42,7 +42,7 @@ img{
 .card:hover{
     animation-name:floating;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     /* background: linear-gradient(90deg,rgba(43, 111, 238, 0.2) 0%, rgb(85, 83, 134) 100%); */
 }
