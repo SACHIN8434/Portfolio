@@ -16,7 +16,7 @@ const Home = () => {
             I'm a 
             Fullstack Web developer 
             </p>
-            <a href="mailto:sachin843413@gmailcom" className={styles.homeBtn}>Contact Me</a>
+            <a href="mailto:sachin843413@gmail.com" className={styles.homeBtn}>Contact Me</a>
             <div className={styles.icons}>
                 <a href="https://github.com/SACHIN8434?tab=repositories" target="_blank"><FaGithub size={30}/></a>
                 <a href="https://www.linkedin.com/in/sachin-kumar-570347246/" target="_blank"><FaLinkedin  size={30}/></a>     
