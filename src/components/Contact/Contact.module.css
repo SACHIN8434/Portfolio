@@ -1,0 +1,65 @@
+.contactContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    background: linear-gradient(90deg,rgba(43, 111, 238, 0.2) 0%, rgb(0, 0, 0) 100%);
+    /* margin-top: 30px; */
+}
+
+.contactTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35vh;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 35vh;
+    
+}
+
+input{
+    width: 35vw;
+    height: 5vh;
+    border-radius: 5px;
+
+    
+}
+
+.contactTextArea{
+    width: 35vw;
+    height: 15vh;
+    border-radius: 5px;
+
+}
+
+button{
+    height: 5vh;
+    /* margin-top: 10px; */
+    width: 5vw;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:40px;
+
+}
+
+@media screen and (max-width:830px){
+    button{
+        width: 20vw;
+        cursor: pointer;
+
+    }
+}

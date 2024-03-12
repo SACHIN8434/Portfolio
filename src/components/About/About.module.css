@@ -1,0 +1,64 @@
+.aboutContainer{
+    /* height: 40vh; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* background-color: red; */
+    /* margin-top: 10px; */
+    align-items: center;
+    background: linear-gradient(90deg,rgba(43, 111, 238, 0.2) 0%, rgb(85, 83, 134) 100%);
+
+}
+
+
+.aboutPhotoDiv{
+    display: flex;
+    align-items: flex-start;
+    width: 21vw;
+    background-color: blue;
+    
+}
+.aboutImg{
+    width: 20vw;
+    border-radius: 50px;
+    
+}
+
+/* .aboutText{
+
+    this creates problem for image
+    margin-right: 30%;
+} */
+
+.aboutLists{
+    margin-top: 20px;
+}
+.list{
+    margin:15px 0px;
+    list-style: none;
+    background-image:linear-gradient(90deg,rgba(131, 150, 225, 0.975) 5%, rgb(197, 198, 208)100%);
+    background-size:0 100%;
+    background-repeat: no-repeat;
+    transition:0.4s;
+    height: 10vh;
+    border-radius: 10px;
+
+}
+.list:hover{
+    background-size: 100% 100%;
+
+}
+
+.aboutHeadings{
+    display: flex;
+}
+
+@media screen and (max-width:830px){
+    .aboutContainer{
+        flex-direction: column;
+    }
+    .aboutImg{
+        border-radius: 1px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,137 @@
+@import "../../vars";
+
+.container{
+    /* position: relative; */
+    height: 10vh;
+    
+    /* background-color: var(--color-bg);
+    color: var(--color-text); */
+    color:black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+     box-shadow: 0 5px 15px rgb(116, 115, 115);
+     /* position: fixed; */
+     position: sticky;
+     /* background-color: red; */
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.title{
+    font-size:x-large;
+    margin-left: 50px;
+
+}
+.menuItemsPhone{
+    display: flex;
+    flex-direction: row;
+}
+
+.menuItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    font-size: larger;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+
+.menuItems li a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.hamburger{
+    height: 3vh;
+    color:white;
+}
+.menuBtn{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:830px){
+    /* .container{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 8vh;
+    }
+    .menuItemsPhone{
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+        margin-top: 110px;
+        gap:10px;
+    }
+    .menuBtn{
+        max-height: 1vh;
+        width: 2vw;
+    }
+    .menuItems{
+        width: 18vw;
+        height: 15vh;
+        flex-direction: column;
+        gap:15px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        display: none;
+    }
+    .menuOpen{
+        display: flex;
+    } */
+
+    .menuBtn{
+        display: flex;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        position:relative;
+    }
+
+    .title{
+        position: absolute; 
+        left:0;
+    }
+
+    .menuItems{
+        position:absolute;
+        right:0;
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        display: none;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .menuOpen{
+
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        width: 20vw;
+        z-index:2;
+        /* border:2px solid red; */
+        /* background: linear-gradient(90deg,rgba(85, 113, 225, 0.9) 50%, rgba(70,255,23,3.1) 90%); */
+        background-color: #fff;
+        cursor: pointer;
+        
+    }
+
+}
